@@ -1,87 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
+<html lang="en-us">
+
+  <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets\css,\style.css">
+    <title>The Bookworm Trivia</title>
 
-    <title>Trivia Game</title>
-</head>
+    <!-- CSS Reset Sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
 
-<body>
+    <!-- Our own CSS Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <div class="jumbotron">
-        <h1 class="display-4">The BookWorm Quiz</h1>
-        <hr class="my-4">
-        <p>Do you have a "booked" day? Try this 5 minutes quiz and see how book nerd you are.</p>
-        <button type="button" class="btn btn-success"> Start Quiz </button>
-    </div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <div class="container">
-        <div class="row">
-            <!-- Here is the timer -->
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
+  </head>
 
-            </div>
-            <!-- Here is the Q&A box -->
-            <div class="col-md-8">
-                <!-- Questions box -->
+  <body>
 
-                <div class="card">
-                    <div class="card-body">
-                        Place here the questions
-                    </div>
-                </div>
-                <br>
-                <!-- Answers box -->
-                <div class="card">
-                    <div class="card-body">
-                        <!-- Answer 1 -->
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <input type="radio" aria-label="Radio button for following text input">
-                                </div>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Text input with radio button">
-                        </div>
-                        <!-- Answer 2 -->
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <input type="radio" aria-label="Radio button for following text input">
-                                </div>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Text input with radio button">
-                        </div>
-                        <!-- Answer 3 -->
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <input type="radio" aria-label="Radio button for following text input">
-                                </div>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Text input with radio button">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+    <div id="wrapper">
+      <h1>Are you a Bookworm?</h1>
+      <div id="sub-wrapper">
+        <div id="quiz-area">
+          <button id="start">Start</button>
         </div>
+      </div>
     </div>
 
-</body>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
 
 </html>
